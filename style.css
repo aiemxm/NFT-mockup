@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  font-family: "Roboto Condensed", cursive;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  width: 100%;
+}
+.navleft {
+  display: flex;
+
+  width: 60%;
+}
+
+.navleft input {
+  margin-left: 60px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.navleft input::placeholder {
+  padding-left: 20px;
+}
+
+h2::after {
+  content: "\2731";
+  color: red;
+  font-size: 12px;
+  margin-left: 0px;
+  bottom: -2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#profile {
+  font-size: 1.5rem;
+}
+
+#cart {
+  font-size: 1.5rem;
+}
+
+a:visited {
+  color: black;
+}
+
+main {
+  display: flex;
+  padding-top: 30px;
+}
+
+.mainleft {
+  /* background: rgb(0, 102, 255); */
+  width: 45%;
+  height: 600px;
+  display: flex;
+  margin-right: 10px;
+}
+
+#containerleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 80%;
+}
+
+.mainleft h1 {
+  font-size: 90px;
+  padding-top: 30px;
+}
+.mainleft p {
+  color: darkgray;
+}
+#explore {
+  background: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+#explore:hover {
+  cursor: pointer;
+}
+
+.mainright {
+  width: 55%;
+  height: 500px;
+  border-radius: 20px;
+}
+.card {
+  position: relative;
+  box-shadow: 0px 4px 9px -3px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+.card img {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+#descriptionleft {
+  display: flex;
+}
+
+#descriptionleft p {
+  font-weight: bold;
+}
+#descriptionleft span {
+  font-size: 0.8rem;
+  color: #5fbcdc;
+  font-weight: bold;
+}
+
+#bitcoin {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  margin-right: 20px;
+}
+
+#info {
+  color: gray;
+  font-size: x-large;
+}
+
+footer {
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  width: 40%;
+  margin: 0;
+}
+
+.footer-left img {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+#text-l {
+  /* background: red; */
+  justify-content: center;
+  text-align: left;
+  line-height: 150%;
+  height: 70px;
+}
+
+#a  {
+  text-decoration: underline black;
+  font-weight: bold;
+}
+
+.footer-right {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.wallet {
+  display: flex;
+}
+
+.wallet img {
+height: 40px;
+width: 40px;
+margin-right: 20px;
+}
+
+#wallet-text p {
+    color: rgb(112, 106, 106);
+    margin-top: 8px;
+    
+}
+#wal-span {
+    color: #2081e2;
+}
+
+.line {
+    border-left: 1px solid #ccc;
+}
+
+.collection {
+    display: flex;
+}
+
+.collection img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+#collection-text p {
+    color: rgb(112, 106, 106);
+    margin-top: 8px;
+}
+
+#col-span {
+    color: #2081E2;
+}
